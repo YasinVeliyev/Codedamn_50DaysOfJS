@@ -8,4 +8,4 @@ function toWeirdCase(string) {
       return str
     })
     .join("")
-}
+} 
