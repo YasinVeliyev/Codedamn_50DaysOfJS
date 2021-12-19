@@ -1,3 +1,11 @@
+let timeForPrepare = {
+    "Pure Strawberry Joy": 0.5,
+    Energizer: 1.5,
+    "Green Garden": 1.5,
+    "Tropical Island": 3,
+    "All or Nothing": 5,
+};
+
 const timeToMixJuice = (name) => {
     return timeForPrepare[name] || 2.5;
 };
